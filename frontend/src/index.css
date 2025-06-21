@@ -1,0 +1,59 @@
+.nav-link{
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.foot-link{
+    line-height: 2;
+}
+
+.foot-bottom{
+    display: flex;
+    line-height: 2;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 1%;
+}
+
+.foot-bottom-link{
+    text-decoration: none;
+}
+
+.support-ticket-link{
+    text-decoration: none;
+    line-height: 2.7;
+}
+
+#support-hero{
+    background-color: rgb(56, 126, 209);
+    color: #FFF;
+}
+
+#support-hero a{
+    color:#FFF;
+    line-height: 2.5;
+    padding-right: 4%;
+}
+
+#support-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+#support-hero input{
+    padding: 4%;
+    width: 100%;
+    border-radius: 12px;
+    font-size: 1.2em;
+    border: none;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    
+}
+
+#support-hero input:focus{
+    border: none;
+    outline: none;
+}
