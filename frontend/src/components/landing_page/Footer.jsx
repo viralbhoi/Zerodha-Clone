@@ -19,7 +19,7 @@ export default function Footer() {
                     </p>
                 </div>
                 <div className="flex-col w-full md:w-3/12">
-                    <p className="font-semibold">Company</p>
+                    <p className="font-semibold text-xl mb-4">Company</p>
                     <Link to="/about" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>About</Link>
                     <br />
                     <Link to="/product" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Products</Link>
@@ -38,7 +38,7 @@ export default function Footer() {
                     <br />
                 </div>
                 <div className="flex-col w-full md:w-3/12">
-                    <p className="font-semibold">Support</p>
+                    <p className="font-semibold text-xl mb-4">Support</p>
                     <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Contact</a>
                     <br />
                     <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Support Portal</a>
@@ -51,7 +51,7 @@ export default function Footer() {
                     <br />
                 </div>
                 <div className="flex-col w-full md:w-3/12">
-                    <p className="font-semibold">Account</p>
+                    <p className="font-semibold text-xl mb-4">Account</p>
                     <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Open an account</a>
                     <br />
                     <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Fund Transfer</a>
@@ -61,7 +61,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="mt-5 text-gray-500 text-justify" style={{ fontSize: "14px" }}>
+            <div className="mt-5 text-gray-500 text-justify flex flex-col gap-4 m-3" style={{ fontSize: "14px" }}>
                 <p>
                     Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI
                     Registration no.: INZ000031633 CDSL: Depository services

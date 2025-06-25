@@ -7,7 +7,7 @@ export default function Navbar() {
     const toggleMenu = () => setMenuOpen(!menuOpen);
 
     return (
-        <div className="w-full h-[10%]">
+        <div className="w-full h-[10%] py-2">
             <nav className="hidden md:flex justify-between items-center p-4 border-b w-full">
                 <div className="flex-1">
                     <Link to="/">
@@ -49,7 +49,7 @@ export default function Navbar() {
                         )}
                     </div>
                 </div>
-                {menuOpen && <div className="flex-col flex-1 p-4">
+                {menuOpen && <div className="flex-col flex flex-1 p-4">
                     <Link to="/signup" className="nav-link py-3" onClick={toggleMenu}>Sign Up</Link>
                     <Link to="/about" className="nav-link py-3" onClick={toggleMenu}>About</Link>
                     <Link to="/product" className="nav-link py-3" onClick={toggleMenu}>Product</Link>

@@ -3,16 +3,16 @@ import React from 'react'
 export default function HeroSection() {
   return (
     <>
-      <div className="flex items-center justify-center p-5 mt-5 mb-5">
-        <h1 className='text-center'>
+      <div className="flex items-center justify-center p-5 m-5">
+        <h1 className='text-center md:text-5xl text-4xl font-semibold m-5 p-5'>
           We pioneered the discount broking model in India
           <br />
           Now, we are breaking ground with our technology.
         </h1>
       </div>
 
-      <div className="flex flex-col md:flex-row p-5 md:mt-5 mt-3  border-t text-gray-500" style={{fontSize:"1.2em",lineHeight:"1.8"}}>
-        <div className="w-full md:w-1/2 flex-col md:p-5 p-0">
+      <div className="flex flex-col md:flex-row md:mt-5 mt-3  border-t text-gray-500 text-lg p-5 gap-5 m-5 space-x-5" style={{fontSize:"1.2em",lineHeight:"1.8"}}>
+        <div className="w-full md:w-1/2 flex flex-col md:p-5 p-0 gap-5">
           <p>
             We kick-started operations on the 15th of August, 2010 with the goal
             of breaking all barriers that traders and investors face in India in
@@ -30,7 +30,7 @@ export default function HeroSection() {
             all Indian retail trading volumes.
           </p>
         </div>
-        <div className="w-full md:w-1/2 flex-col md:p-5 p-0">
+        <div className="w-full md:w-1/2 flex flex-col md:p-5 p-0 gap-5">
           <p>
             In addition, we run a number of popular open online educational and
             community initiatives to empower retail traders and investors.

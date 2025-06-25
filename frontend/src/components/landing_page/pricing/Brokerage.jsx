@@ -6,13 +6,13 @@ export default function Brokerage() {
             <div className="flex flex-col md:flex-row p-4 mt-5 text-center border-t">
                 <div className="w-full md:w-8/12 p-4">
                     <a href="#" style={{ textDecoration: "none" }}>
-                        <h3 className="text-md mb-5">Brokerage calculator</h3>
-                        </a>
+                        <h3 className="text-3xl mb-5">Brokerage calculator</h3>
+                    </a>
                         <ul
                             style={{
                                 textAlign: "left",
                                 lineHeight: "2.5",
-                                fontSize: "0.85em",
+                                fontSize: "1em",
                             }}
                             className="text-gray-500"
                             >
@@ -45,7 +45,7 @@ export default function Brokerage() {
                 </div>
                 <div className="w-full md:w-4/14 p-4">
                     <a href="#" style={{ textDecoration: "none" }}>
-                        <h3 className="text-md">List of charges</h3>
+                        <h3 className="text-3xl mb-5">List of charges</h3>
                     </a>
                 </div>
             </div>

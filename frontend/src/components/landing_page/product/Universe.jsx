@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Universe() {
     return (
-        <div className="border-bottom p-5">
+        <div className="border-bottom p-5 py-3 mb-5">
             <div className="flex-col text-center">
-                <h1>The Zerodha Universe</h1>
+                <h1 className="font-semibold text-4xl md:text-5xl p-3">The Zerodha Universe</h1>
                 <p className="mt-3 mb-5">
                     Extend your trading and investment experience even further
                     with our partner platforms

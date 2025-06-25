@@ -4,14 +4,14 @@ export default function CreateTicket() {
     return (
         <div className="flex flex-col md:p-5 p-0">
             <div className="flex p-5 mt-5">
-                <h1 className="text-lg text-center">
+                <h1 className="text-4xl md:text-5xl font-semibold text-center">
                     To create a ticket, select a relevent topic
                 </h1>
             </div>
 
             <div className="flex flex-col md:flex-row flex-wrap p-5 md:mt-5 mt-0 md:mb-5 mb-1">
                 <div className="w-full md:w-1/3 p-5 mt-2 mb-1">
-                    <h4 className="mb-5">
+                    <h4 className="md:text-xl text-lg font-medium mb-4">
                         <i className="fa fa-plus-circle" aria-hidden="true"></i>{"  "}
                         Account Opening
                     </h4>
@@ -47,7 +47,7 @@ export default function CreateTicket() {
                 </div>
 
                 <div className="w-full md:w-1/3 p-5 mt-2 mb-1">
-                    <h4 className="mb-5">
+                    <h4 className="md:text-xl text-lg font-medium mb-4">
                         <i className='fa fa-user' aria-hidden="true"></i>{"  "} Your Zerodha Account
                     </h4>
 
@@ -74,7 +74,7 @@ export default function CreateTicket() {
                 </div>
 
                 <div className="w-full md:w-1/3 p-5 mt-2 mb-1">
-                    <h4 className="mb-5">
+                    <h4 className="md:text-xl text-lg font-medium mb-4">
                         <i className="fa fa-bar-chart" aria-hidden="true"></i>
                         {"  "}Your Zerodha Account
                     </h4>
@@ -118,7 +118,7 @@ export default function CreateTicket() {
                 </div>
 
                 <div className="w-full md:w-1/3 p-5 mt-2 mb-1">
-                    <h4 className="mb-5">
+                    <h4 className="md:text-xl text-lg font-medium mb-4">
                         <i className="fa fa-credit-card" aria-hidden="true"></i>
                         {"  "}Funds
                     </h4>
@@ -142,7 +142,7 @@ export default function CreateTicket() {
                 </div>
 
                 <div className="w-full md:w-1/3 p-5 mt-2 mb-1">
-                    <h4 className="mb-5">
+                    <h4 className="md:text-xl text-lg font-medium mb-4">
                         <i className="fa fa-circle-o-notch" aria-hidden="true"></i>
                         {"  "}Your Console
                     </h4>
@@ -174,7 +174,7 @@ export default function CreateTicket() {
                 </div>
 
                 <div className="w-full md:w-1/3 p-5 mt-2 mb-1">
-                    <h4 className="mb-5">
+                    <h4 className="md:text-xl text-lg font-medium mb-4">
                         <i className="fa fa-circle-o" aria-hidden="true"></i>
                         {"  "}Your Coin
                     </h4>
