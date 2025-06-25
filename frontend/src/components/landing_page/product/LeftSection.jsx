@@ -23,7 +23,7 @@ export default function LeftSection({
                         <a href={tryDemo} style={{ textDecoration: "none" }}>
                             Try Demo{" "}
                             <i
-                                class="fa fa-long-arrow-right"
+                                className="fa fa-long-arrow-right"
                                 aria-hidden="true"
                             ></i>
                         </a>
@@ -36,7 +36,7 @@ export default function LeftSection({
                         >
                             Learn More{" "}
                             <i
-                                class="fa fa-long-arrow-right"
+                                className="fa fa-long-arrow-right"
                                 aria-hidden="true"
                             ></i>
                         </a>

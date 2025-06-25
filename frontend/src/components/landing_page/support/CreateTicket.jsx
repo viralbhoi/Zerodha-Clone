@@ -12,7 +12,7 @@ export default function CreateTicket() {
             <div className="flex flex-col md:flex-row flex-wrap p-5 md:mt-5 mt-0 md:mb-5 mb-1">
                 <div className="w-full md:w-1/3 p-5 mt-2 mb-1">
                     <h4 className="mb-5">
-                        <i class="fa fa-plus-circle" aria-hidden="true"></i>{"  "}
+                        <i className="fa fa-plus-circle" aria-hidden="true"></i>{"  "}
                         Account Opening
                     </h4>
 
@@ -48,7 +48,7 @@ export default function CreateTicket() {
 
                 <div className="w-full md:w-1/3 p-5 mt-2 mb-1">
                     <h4 className="mb-5">
-                        <i class='fa fa-user' aria-hidden="true"></i>{"  "} Your Zerodha Account
+                        <i className='fa fa-user' aria-hidden="true"></i>{"  "} Your Zerodha Account
                     </h4>
 
                     <a href="" className="support-ticket-link">
@@ -75,7 +75,7 @@ export default function CreateTicket() {
 
                 <div className="w-full md:w-1/3 p-5 mt-2 mb-1">
                     <h4 className="mb-5">
-                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                        <i className="fa fa-bar-chart" aria-hidden="true"></i>
                         {"  "}Your Zerodha Account
                     </h4>
 
@@ -119,7 +119,7 @@ export default function CreateTicket() {
 
                 <div className="w-full md:w-1/3 p-5 mt-2 mb-1">
                     <h4 className="mb-5">
-                        <i class="fa fa-credit-card" aria-hidden="true"></i>
+                        <i className="fa fa-credit-card" aria-hidden="true"></i>
                         {"  "}Funds
                     </h4>
 
@@ -143,7 +143,7 @@ export default function CreateTicket() {
 
                 <div className="w-full md:w-1/3 p-5 mt-2 mb-1">
                     <h4 className="mb-5">
-                        <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+                        <i className="fa fa-circle-o-notch" aria-hidden="true"></i>
                         {"  "}Your Console
                     </h4>
 
@@ -175,7 +175,7 @@ export default function CreateTicket() {
 
                 <div className="w-full md:w-1/3 p-5 mt-2 mb-1">
                     <h4 className="mb-5">
-                        <i class="fa fa-circle-o" aria-hidden="true"></i>
+                        <i className="fa fa-circle-o" aria-hidden="true"></i>
                         {"  "}Your Coin
                     </h4>
 

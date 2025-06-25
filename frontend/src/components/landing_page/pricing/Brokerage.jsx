@@ -45,7 +45,7 @@ export default function Brokerage() {
                 </div>
                 <div className="w-full md:w-4/14 p-4">
                     <a href="#" style={{ textDecoration: "none" }}>
-                        <h3 className="fs-5">List of charges</h3>
+                        <h3 className="text-md">List of charges</h3>
                     </a>
                 </div>
             </div>

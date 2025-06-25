@@ -21,7 +21,7 @@ export default function RightSection({
                         >
                             Learn More{" "}
                             <i
-                                class="fa fa-long-arrow-right"
+                                className="fa fa-long-arrow-right"
                                 aria-hidden="true"
                             ></i>
                         </a>
