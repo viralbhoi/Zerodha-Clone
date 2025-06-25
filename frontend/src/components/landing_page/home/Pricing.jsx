@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Pricing() {
     return (
-        <div className="container mb-3">
-            <div className="row">
-                <div className="col-4">
-                    <h1 className="mb-3 fs-2">Unbeatable Pricing</h1>
+        <div className="mb-3">
+            <div className="flex flex-col md:flex-row gap-3 justify-between px-5">
+                <div className="flex-col w-full md:w-4/12">
+                    <h1 className="mb-3">Unbeatable Pricing</h1>
                     <p>
                         We pioneered the concept of discount broking and price
                         transparency in India. Flat fees and no hidden charges.
@@ -18,10 +18,10 @@ export default function Pricing() {
                         ></i>
                     </a>
                 </div>
-                <div className="col-2"></div>
-                <div className="col-6">
-                    <div className="row text-center">
-                        <div className="col border p-4">
+                <div className="flex-col w-0 md:w-2/12"></div>
+                <div className="flex-col w-full md:w-6/12">
+                    <div className="flex text-center">
+                        <div className="flex-col border p-4 w-1/2">
                             <h1 className="mb-3">₹0</h1>
                             <p>
                                 Free equity delivery and
@@ -29,7 +29,7 @@ export default function Pricing() {
                                 direct mutual funds
                             </p>
                         </div>
-                        <div className="col border p-4">
+                        <div className="flex-col border p-4 w-1/2">
                             <h1 className="mb-3">₹20</h1>
                             <p>Intraday and F&O</p>
                         </div>

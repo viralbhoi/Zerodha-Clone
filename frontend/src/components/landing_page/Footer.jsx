@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 export default function Footer() {
     return (
       <footer style={{backgroundColor:"rgb(250,250,250)"}} className="border-top mb-0">
-        <div className="container mt-5">
-            <div className="row mt-5">
-                <div className="col">
+        <div className="flex flex-col mt-5 w-full p-4">
+            <div className="flex flex-col flex-nowrap md:flex-row gap-5 mt-2 p-3">
+                <div className="flex-col w-full md:w-3/12 ">
                     <img
                         src="media/logo.svg"
                         alt="Logo"
@@ -18,50 +18,50 @@ export default function Footer() {
                         reserved.
                     </p>
                 </div>
-                <div className="col">
-                    <p>Company</p>
-                    <Link to="/about" className="text-muted foot-link" style={{textDecoration : "none"}}>About</Link>
+                <div className="flex-col w-full md:w-3/12">
+                    <p className="font-semibold">Company</p>
+                    <Link to="/about" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>About</Link>
                     <br />
-                    <Link to="/product" className="text-muted foot-link" style={{textDecoration : "none"}}>Products</Link>
+                    <Link to="/product" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Products</Link>
                     <br />
-                    <Link to="/pricing" className="text-muted foot-link" style={{textDecoration : "none"}}>Pricing</Link>
+                    <Link to="/pricing" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Pricing</Link>
                     <br />
-                    <a href="#" className="text-muted foot-link" style={{textDecoration : "none"}}>Referral programme</a>
+                    <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Referral programme</a>
                     <br />
-                    <a href="#" className="text-muted foot-link" style={{textDecoration : "none"}}>Careers</a>
+                    <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Careers</a>
                     <br />
-                    <a href="#" className="text-muted foot-link" style={{textDecoration : "none"}}>Zerodha.tech</a>
+                    <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Zerodha.tech</a>
                     <br />
-                    <a href="#" className="text-muted foot-link" style={{textDecoration : "none"}}>Press & media</a>
+                    <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Press & media</a>
                     <br />
-                    <a href="#" className="text-muted foot-link" style={{textDecoration : "none"}}>Zerodha cares (CSR)</a>
-                    <br />
-                </div>
-                <div className="col">
-                    <p>Support</p>
-                    <a href="#" className="text-muted foot-link" style={{textDecoration : "none"}}>Contact</a>
-                    <br />
-                    <a href="#" className="text-muted foot-link" style={{textDecoration : "none"}}>Support Portal</a>
-                    <br />
-                    <a href="#" className="text-muted foot-link" style={{textDecoration : "none"}}>z-Connect blog</a>
-                    <br />
-                    <a href="#" className="text-muted foot-link" style={{textDecoration : "none"}}>list of chages</a>
-                    <br />
-                    <a href="#" className="text-muted foot-link" style={{textDecoration : "none"}}>Download & resources</a>
+                    <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Zerodha cares (CSR)</a>
                     <br />
                 </div>
-                <div className="col">
-                    <p>Account</p>
-                    <a href="#" className="text-muted foot-link" style={{textDecoration : "none"}}>Open an account</a>
+                <div className="flex-col w-full md:w-3/12">
+                    <p className="font-semibold">Support</p>
+                    <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Contact</a>
                     <br />
-                    <a href="#" className="text-muted foot-link" style={{textDecoration : "none"}}>Fund Transfer</a>
+                    <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Support Portal</a>
                     <br />
-                    <a href="#" className="text-muted foot-link" style={{textDecoration : "none"}}>60 day challenge</a>
+                    <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>z-Connect blog</a>
+                    <br />
+                    <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>list of chages</a>
+                    <br />
+                    <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Download & resources</a>
+                    <br />
+                </div>
+                <div className="flex-col w-full md:w-3/12">
+                    <p className="font-semibold">Account</p>
+                    <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Open an account</a>
+                    <br />
+                    <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>Fund Transfer</a>
+                    <br />
+                    <a href="#" className="!text-gray-500 foot-link" style={{textDecoration : "none"}}>60 day challenge</a>
                     <br />
                 </div>
             </div>
 
-            <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
+            <div className="mt-5 text-gray-500 text-justify" style={{ fontSize: "14px" }}>
                 <p>
                     Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI
                     Registration no.: INZ000031633 CDSL: Depository services
@@ -114,12 +114,12 @@ export default function Footer() {
             </div>
 
             <div className="foot-bottom">
-              <a href="#" className="text-muted foot-bottom-link">NSE</a>
-              <a href="#" className="text-muted foot-bottom-link">BSE</a>
-              <a href="#" className="text-muted foot-bottom-link">Terms & conditions</a>
-              <a href="#" className="text-muted foot-bottom-link">Policies & procedures</a>
-              <a href="#" className="text-muted foot-bottom-link">Privacy policy</a>
-              <a href="#" className="text-muted foot-bottom-link">Disclosure</a>
+              <a href="#" className="!text-gray-500 foot-bottom-link">NSE</a>
+              <a href="#" className="!text-gray-500 foot-bottom-link">BSE</a>
+              <a href="#" className="!text-gray-500 foot-bottom-link">Terms & conditions</a>
+              <a href="#" className="!text-gray-500 foot-bottom-link">Policies & procedures</a>
+              <a href="#" className="!text-gray-500 foot-bottom-link">Privacy policy</a>
+              <a href="#" className="!text-gray-500 foot-bottom-link">Disclosure</a>
             </div>
         </div>
       </footer>

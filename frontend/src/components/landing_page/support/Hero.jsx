@@ -2,20 +2,21 @@ import React from "react";
 
 export default function Hero() {
     return (
-        <section className="container-fluid" id="support-hero">
-            <div className="py-5 mb-4" id="support-wrapper">
+        <section id="support-hero">
+            <div className="py-5 md:ml-[10%] px-5 md:px-0 mb-4 flex md:justify-between md:flex-row flex-col">
                 <h3>Support Portal</h3>
-                <a href="">Track Tickets</a>
+                <a href="#">Track Tickets</a>
             </div>
 
-            <div className="row p-3 px-5 mx-5 mt-3">
-                <div className="col-6 p-3 px-5">
-                    <h1 className="fs-3">
+            <div className="flex flex-col md:flex-row p-3 px-5 md:mx-5 mx-0  mt-3">
+                <div className="m-full md:w-1/2 p-3 md:px-5 px-0">
+                    <h1 className="text-md">
                         Search for an answer or browse help topics to create a
                         ticket
                     </h1>
 
                     <input
+                    className="bg-gray-100 p-2 rounded-xl text-black"
                         type="text"
                         placeholder="Eg. how do I activate F&O"
                     />
@@ -26,9 +27,9 @@ export default function Hero() {
                     <a href="">Intraday margins</a>
                     <a href="">Kite user manual</a>
                 </div>
-                <div className="col-1 p-3"></div>
-                <div className="col-5 p-3">
-                    <h1 className="fs-3">Featured</h1>
+                <div className="md:w-1/12 w-0 p-3"></div>
+                <div className="flex-col md:w-5/12 w-full md:p-3 p-0">
+                    <h1 className="text-md">Featured</h1>
 
                     <ol>
                         <li>

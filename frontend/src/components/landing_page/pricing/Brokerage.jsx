@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Brokerage() {
     return (
-        <div className="container">
-            <div className="row p-4 mt-5 text-center border-top">
-                <div className="col-8 p-4">
+        <>
+            <div className="flex flex-col md:flex-row p-4 mt-5 text-center border-t">
+                <div className="w-full md:w-8/12 p-4">
                     <a href="#" style={{ textDecoration: "none" }}>
-                        <h3 className="fs-5 mb-5">Brokerage calculator</h3>
+                        <h3 className="text-md mb-5">Brokerage calculator</h3>
                         </a>
                         <ul
                             style={{
@@ -14,7 +14,7 @@ export default function Brokerage() {
                                 lineHeight: "2.5",
                                 fontSize: "0.85em",
                             }}
-                            className="text-mut"
+                            className="text-gray-500"
                             >
                             <li>
                                 Call & Trade and RMS auto-squareoff:Additional
@@ -43,12 +43,12 @@ export default function Brokerage() {
                             </li>
                         </ul>
                 </div>
-                <div className="col-4 p-4">
+                <div className="w-full md:w-4/14 p-4">
                     <a href="#" style={{ textDecoration: "none" }}>
                         <h3 className="fs-5">List of charges</h3>
                     </a>
                 </div>
             </div>
-        </div>
+        </>
     );
 }

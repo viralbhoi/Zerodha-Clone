@@ -2,20 +2,20 @@ import React from "react";
 
 export default function Award() {
     return (
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-6 col-sm-12 p-5">
+        <>
+            <div className="flex flex-col md:flex-row">
+                <div className="flex-col md:flex-1/2 p-5">
                     <img src="media/largestBroker.svg" alt="Largest Broker" />
                 </div>
-                <div className="col-lg-6 col-sm-12 p-5 mt-3">
+                <div className="flex-col md:flex-1/2 p-5">
                     <h1>Largest stock broker in India</h1>
                     <p className="mb-5">
                         2+ million Zerodha clients contribute to over 15% of all
                         retail order volumes in India daily by trading and
                         investing in:
                     </p>
-                    <div className="row">
-                        <div className="col">
+                    <div className="flex justify-center">
+                        <div className="flex-col">
                             <ul>
                                 <li>
                                     <p>Futures and Options</p>
@@ -28,7 +28,7 @@ export default function Award() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="col">
+                        <div className="flex-col">
                             <ul>
                                 <li>
                                     <p>Stocks & IPOs</p>
@@ -45,6 +45,6 @@ export default function Award() {
                     <img src="media/pressLogos.png" alt="Press Logos" style={{width:"90%"}}/>
                 </div>
             </div>
-        </div>
+        </>
     );
 }

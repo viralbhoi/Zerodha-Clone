@@ -10,12 +10,12 @@ export default function LeftSection({
     appStore,
 }) {
     return (
-        <div className="container mb-5">
-            <div className="row">
-                <div className="col p-5 mt-0">
+        <div className=" mb-5">
+            <div className="flex flex-col md:flex-row md:p-5 p-0">
+                <div className="flex-col md:w-1/2 w-full p-5 mt-0">
                     <img src={imgUrl} alt="" />
                 </div>
-                <div className="col p-5 mt-5">
+                <div className="flex-col md:w-1/2 w-full p-5 md:mt-5 mt-0">
                     <h1>{productName}</h1>
                     <p>{productDescription}</p>
 

@@ -7,9 +7,9 @@ export default function RightSection({
     learnMore,
 }) {
     return (
-        <div className="container">
-            <div className="row">
-                <div className="col p-5 mt-5 d-flex flex-column justify-content-flex-start">
+        <div className="">
+            <div className="flex flex-col-reverse md:flex-row md:p-5 p-0">
+                <div className="flex-col md:w-1/2 w-full p-5 md:mt-5 mt-0">
                     <h1 className="mt-5 pt-5">{productName}</h1>
                     <p>{productDescription}</p>
                     <div>
@@ -27,7 +27,7 @@ export default function RightSection({
                         </a>
                     </div>
                 </div>
-                <div className="col p-5">
+                <div className="flex-col md:w-1/2 w-full p-5 mt-0">
                     <img src={imgUrl} alt="" />
                 </div>
             </div>

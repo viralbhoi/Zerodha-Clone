@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Education() {
     return (
-        <div className="container mt-5 mb-5">
-            <div className="row">
-                <div className="col-6">
+        <div className="mt-5 mb-5">
+            <div className="flex flex-col md:flex-row">
+                <div className="flex-col md:flex-1 mb-3 md:mb-0 items-center justify-center">
                     <img src="media/education.svg" alt="Education" style={{width:"70%"}}/>
                 </div>
-                <div className="col-6">
+                <div className="flex-col md:flex-1 p-4 md:p-0 mt-5 text-justify">
                     <h1 className="mb-3 fs-2">Free and open market education</h1>
                     <p>
                         Varsity, the largest online stock market education book
